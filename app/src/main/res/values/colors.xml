@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="trans">#00FFFFFF</color>
+    <color name="color_primary">#FCD535</color>
+    <color name="color_tab_select">#FF742F</color>
+    <color name="color_gray_ads">#7F8D8E</color>
+    <color name="color_outline_header">#E87002</color>
+    <color name="color_header">#FFC700</color>
+    <color name="color_background">#181A20</color>
+    <color name="color_title">#F0B90B</color>
+
+    <color name="color_F0B90B">#F0B90B</color>
+    <color name="color_FCD535">#FCD535</color>
+    <color name="color_868A90">#868A90</color>
+</resources>

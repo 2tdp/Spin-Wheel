@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Spin Wheel</string>
+    <string name="str_next">अगला</string>
+    <string name="str_start">शुरू करें</string>
+    <string name="str_permission_message_denied">आपको एप्लिकेशन को काम करने के लिए अनुमति देने की आवश्यकता है!</string>
+    <string name="str_rate">रेट करें</string>
+    <string name="str_maybe_late">शायद देर हो गई हो</string>
+    <string name="str_title_update_app">कृपया, उपयोग जारी रखने के लिए ऐप को नए संस्करण में अपडेट करें</string>
+    <string name="str_update_now">अभी अपडेट करें</string>
+    <string name="str_title_ads">इस क्रिया में विज्ञापन हो सकते हैं</string>
+    <string name="str_language">भाषा</string>
+    <string name="str_permission">अनुमति</string>
+    <string name="str_go">जाएँ</string>
+    <string name="str_share">साझा करें</string>
+    <string name="str_privacy_policy">गोपनीयता नीति</string>
+    <string name="str_cancel">रद्द करें</string>
+    <string name="str_ok">ठीक है</string>
+    <string name="str_title_permission">शीर्षक अनुमति</string>
+    <string name="str_title_onboarding_1">मित्रों के साथ मजेदार खेल</string>
+    <string name="str_quote_onboarding_1">मित्रों के साथ एक मजेदार खेल में शामिल हों और देखें कि विजेता कौन बनता है।</string>
+    <string name="str_title_onboarding_2">मनोरंजक स्पिन व्हील</string>
+    <string name="str_quote_onboarding_2">स्पिन व्हील में जीवंत रंग, जीवंत प्रभाव और आकर्षक ध्वनियाँ हैं।</string>
+    <string name="str_title_onboarding_3">एक चैंपियन चुनें</string>
+    <string name="str_quote_onboarding_3">विजेता को यादृच्छिक रूप से चुना जाता है जब प्रतिभागी खेल में शामिल होते हैं।</string>
+    <string name="str_title_rate_dialog_123">ओह, नहीं!</string>
+    <string name="str_quote_rate_dialog_123">कृपया हमें कुछ प्रतिक्रिया दें</string>
+    <string name="str_title_rate_dialog_45">हम भी आपसे प्यार करते हैं!</string>
+    <string name="str_quote_rate_dialog_45">आपकी प्रतिक्रिया के लिए धन्यवाद</string>
+
+    <string name="str_chooser">चयनकर्ता</string>
+    <string name="str_ranking">रैंकिंग</string>
+    <string name="str_win">जीतें</string>
+    <string name="str_homograft">होमोग्राफ्ट</string>
+    <string name="str_roulette">रूले</string>
+    <string name="str_add">जोड़ें</string>
+    <string name="str_restart">पुनः आरंभ करें</string>
+    <string name="str_player_game">खिलाड़ी:</string>
+    <string name="message_can_change_winner">कृपया खेल समाप्त होने तक प्रतीक्षा करें</string>
+    <string name="message_max_10">कृपया अधिकतम 10 लोगों के साथ खेलें!</string>
+    <string name="title_result_dialog">विजेता है</string>
+    <string name="message_null">कृपया पूरी जानकारी दर्ज करें</string>
+    <string name="str_got_it">समझ गया</string>
+    <string name="message_touch_point">कृपया अधिक बिंदु स्पर्श करें</string>
+    <string name="des_instruction">जब आप और आपके मित्र यह तय कर रहे हों कि “यह” कौन है, तो बस अपनी उंगलियों को 2 सेकंड के लिए स्क्रीन पर रखें फिर स्पिन व्हील आपके लिए विजेता का चयन करेगा!</string>
+
+    <string name="skip">स्किप करें</string>
+    <string name="update_now">अभी अपडेट करें</string>
+    <string name="des_update">कृपया उपयोग जारी रखने के लिए ऐप को नए संस्करण में अपडेट करें</string>
+    <string name="title_update">नया संस्करण उपलब्ध है</string>
+    <string name="Thank_you">धन्यवाद</string>
+    <string name="rate_thanks">ऐप में रेट करें</string>
+    <string name="txt_your_rate">आपकी रेटिंग</string>
+</resources>

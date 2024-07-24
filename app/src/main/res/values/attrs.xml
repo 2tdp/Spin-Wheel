@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PermissionView">
+        <attr name="pv_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SettingView">
+        <attr name="stv_title" format="string" />
+        <attr name="stv_icon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TextViewOutline">
+        <attr name="outlineSize" format="dimension" />
+        <attr name="outlineColor" format="color|reference" />
+        <attr name="android:shadowRadius" />
+        <attr name="android:shadowDx" />
+        <attr name="android:shadowDy" />
+        <attr name="android:shadowColor" />
+    </declare-styleable>
+
+    <declare-styleable name="LuckyWheel">
+        <attr name="background_color" format="color" />
+        <attr name="arrow_image" format="reference" />
+        <attr name="square_layout" format="boolean" />
+        <attr name="image_padding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="HeaderView">
+        <attr name="hv_show_back" format="boolean" />
+        <attr name="hv_show_done" format="boolean" />
+        <attr name="hv_screen" format="enum">
+            <enum name="language" value="1" />
+            <enum name="setting" value="2" />
+            <enum name="chooser" value="3" />
+            <enum name="homo_graft" value="4" />
+            <enum name="raking" value="5" />
+            <enum name="roulette" value="6" />
+            <enum name="instruction" value="7" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="HomeButton">
+        <attr name="hb_name" format="string"/>
+        <attr name="hb_icon" format="reference"/>
+        <attr name="hb_icon_left" format="boolean"/>
+    </declare-styleable>
+</resources>

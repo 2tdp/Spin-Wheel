@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "422824635025",
+    "project_id": "app302---spinwheel",
+    "storage_bucket": "app302---spinwheel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422824635025:android:4a020aeff6d3506331ad30",
+        "android_client_info": {
+          "package_name": "com.spin.wheel.chooser.wheeloffortune"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAehAyabbDM4TQHC_Y5WSglTwJ1IFXgf5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

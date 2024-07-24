@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_background"
+        android:orientation="vertical"
+        tools:context=".ui.SettingActivity">
+
+        <com.spin.wheel.chooser.wheeloffortune.custom.HeaderView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hv_screen="setting"
+            app:hv_show_back="true"
+            app:hv_show_done="false" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_language"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_48sdp"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/bg_item_language"
+            android:drawableStart="@drawable/ics_language"
+            android:drawableEnd="@drawable/ic_more"
+            android:drawablePadding="@dimen/_16sdp"
+            android:fontFamily="@font/vn_regular"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp"
+            android:text="@string/str_language"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_policy"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_48sdp"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@drawable/bg_item_language"
+            android:drawableStart="@drawable/ics_policy"
+            android:drawablePadding="@dimen/_16sdp"
+            android:fontFamily="@font/vn_regular"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp"
+            android:text="@string/str_privacy_policy"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_share"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_48sdp"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@drawable/bg_item_language"
+            android:drawableStart="@drawable/ics_share"
+            android:drawablePadding="@dimen/_16sdp"
+            android:fontFamily="@font/vn_regular"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp"
+            android:text="@string/str_share"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_rate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_48sdp"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@drawable/bg_item_language"
+            android:drawableStart="@drawable/ics_rate"
+            android:drawablePadding="@dimen/_16sdp"
+            android:fontFamily="@font/vn_regular"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp"
+            android:text="@string/str_rate"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

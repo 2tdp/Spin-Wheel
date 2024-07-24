@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_background"
+        tools:context=".ui.RouletteActivity">
+
+        <com.spin.wheel.chooser.wheeloffortune.custom.HeaderView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hv_screen="roulette"
+            app:hv_show_back="true"
+            app:hv_show_done="false"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/btn_reset"
+            app:layout_constraintTop_toBottomOf="@id/header">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imv_foot"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="-140dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_foot_wheel"
+                    app:layout_constraintEnd_toEndOf="@id/imv_bg"
+                    app:layout_constraintStart_toStartOf="@id/imv_bg"
+                    app:layout_constraintTop_toBottomOf="@id/imv_bg" />
+
+                <com.spin.wheel.chooser.wheeloffortune.custom.wheel.LuckyWheel
+                    android:id="@+id/wheel"
+                    android:layout_width="260dp"
+                    android:layout_height="260dp"
+                    android:layout_centerInParent="true"
+                    app:background_color="@color/black"
+                    app:layout_constraintBottom_toBottomOf="@id/imv_bg"
+                    app:layout_constraintEnd_toEndOf="@id/imv_bg"
+                    app:layout_constraintStart_toStartOf="@id/imv_bg"
+                    app:layout_constraintTop_toTopOf="@id/imv_bg" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imv_bg"
+                    android:layout_width="310dp"
+                    android:layout_height="310dp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_bg_wheel"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/img_maker"
+                    app:layout_constraintEnd_toEndOf="@id/imv_bg"
+                    app:layout_constraintStart_toStartOf="@id/imv_bg"
+                    app:layout_constraintTop_toTopOf="@id/imv_bg" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/margin_24dp"
+                    android:layout_height="24dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_center"
+                    app:layout_constraintBottom_toBottomOf="@id/wheel"
+                    app:layout_constraintEnd_toEndOf="@id/wheel"
+                    app:layout_constraintStart_toStartOf="@id/wheel"
+                    app:layout_constraintTop_toTopOf="@id/wheel" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_count"
+                    style="@style/text_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_120sdp"
+                    app:layout_constraintBottom_toBottomOf="@id/imv_bg"
+                    app:layout_constraintTop_toTopOf="@id/imv_bg" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_reset"
+            style="@style/regular_400"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_42sdp"
+            android:layout_marginHorizontal="@dimen/_24sdp"
+            android:background="@drawable/bg_btn_start"
+            android:text="@string/str_restart"
+            android:textAllCaps="false"
+            android:textColor="@color/color_background"
+            app:layout_constraintBottom_toTopOf="@id/rlNative" />
+
+        <FrameLayout
+            android:id="@+id/rlNative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <FrameLayout
+                android:id="@+id/fr_native_ads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:visibility="visible">
+
+                <include layout="@layout/native_bot_horizontal_media_left_loading" />
+            </FrameLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

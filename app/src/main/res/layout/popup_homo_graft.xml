@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_width="120dp"
+        android:layout_height="200dp">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:background="@drawable/bg_popup_player_win"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_h1"
+                style="@style/regular_400"
+                android:textSize="22dp"
+                android:textColor="#3A3E46"
+                android:text="2"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"/>
+
+            <View
+                android:background="#D4CECA"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_h2"
+                style="@style/regular_400"
+                android:textSize="22dp"
+                android:textColor="#3A3E46"
+                android:text="3"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"/>
+
+            <View
+                android:background="#D4CECA"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_h3"
+                style="@style/regular_400"
+                android:textSize="22dp"
+                android:textColor="#3A3E46"
+                android:text="4"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"/>
+
+            <View
+                android:background="#D4CECA"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_h4"
+                style="@style/regular_400"
+                android:textSize="22dp"
+                android:textColor="#3A3E46"
+                android:text="5"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.cardview.widget.CardView>
+
+
+</layout>

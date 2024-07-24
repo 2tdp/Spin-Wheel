@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "228930457295",
+    "project_id": "app225-dfec0",
+    "storage_bucket": "app225-dfec0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228930457295:android:5dc4dccdae6c3661ca71ba",
+        "android_client_info": {
+          "package_name": "com.spin.wheel.chooser.wheeloffortune.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOfCP1-47FCtrCbwekf7t92pmeD9ccnSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

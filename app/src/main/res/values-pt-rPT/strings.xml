@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Spin Wheel</string>
+    <string name="str_next">Próximo</string>
+    <string name="str_start">Começar</string>
+    <string name="str_permission_message_denied">Você precisa conceder permissão para que o aplicativo funcione!</string>
+    <string name="str_rate">Avaliar</string>
+    <string name="str_maybe_late">Talvez atrasado</string>
+    <string name="str_title_update_app">Por favor, atualize o aplicativo para a nova versão para continuar usando</string>
+    <string name="str_update_now">Atualizar agora</string>
+    <string name="str_title_ads">Esta ação pode conter anúncios</string>
+    <string name="str_language">Linguagem</string>
+    <string name="str_permission">Permissão</string>
+    <string name="str_go">Ir</string>
+    <string name="str_share">Compartilhar</string>
+    <string name="str_privacy_policy">Política de Privacidade</string>
+    <string name="str_cancel">Cancelar</string>
+    <string name="str_ok">OK</string>
+    <string name="str_title_permission">permissão de título</string>
+    <string name="str_title_onboarding_1">Jogo Divertido com Amigos</string>
+    <string name="str_quote_onboarding_1">Participe de um jogo divertido com amigos e descubra quem será o vencedor.</string>
+    <string name="str_title_onboarding_2">Roda giratória divertida</string>
+    <string name="str_quote_onboarding_2">A Spin Wheel apresenta cores vibrantes, efeitos animados e sons envolventes.</string>
+    <string name="str_title_onboarding_3">Selecione um campeão</string>
+    <string name="str_quote_onboarding_3">O vencedor é selecionado aleatoriamente quando os participantes entram no jogo.</string>
+    <string name="str_title_rate_dialog_123">Oh não!</string>
+    <string name="str_quote_rate_dialog_123">Por favor, dê-nos algum feedback</string>
+    <string name="str_title_rate_dialog_45">Nós amamos você também!</string>
+    <string name="str_quote_rate_dialog_45">Obrigado pelo seu feedback</string>
+
+    <string name="str_chooser">Seletor</string>
+    <string name="str_ranking">Classificação</string>
+    <string name="str_win">Ganhar</string>
+    <string name="str_homograft">HomoGraft</string>
+    <string name="str_roulette">Roleta</string>
+    <string name="str_add">Adicionar</string>
+    <string name="str_restart">Reiniciar</string>
+    <string name="str_player_game">Jogador:</string>
+    <string name="message_can_change_winner">Por favor, espere até o jogo terminar</string>
+    <string name="message_max_10">Por favor, jogue com até 10 pessoas!</string>
+    <string name="title_result_dialog">O vencedor é</string>
+    <string name="message_null">Por favor insira informações completas</string>
+    <string name="str_got_it">Entendi</string>
+    <string name="message_touch_point">Por favor, toque em mais pontos</string>
+    <string name="des_instruction">Quando você e seus amigos estiverem decidindo quem é “isso”, basta colocar os dedos na tela por 2 segundos e o Spin Wheel escolherá o vencedor para você!</string>
+
+    <string name="skip">Pular</string>
+    <string name="update_now">Atualize agora</string>
+    <string name="des_update">Por favor, atualize o aplicativo para a nova versão para continuar usando</string>
+    <string name="title_update">Nova versão disponível</string>
+    <string name="Thank_you">Obrigado</string>
+    <string name="rate_thanks">Avaliar no aplicativo</string>
+    <string name="txt_your_rate">Sua avaliação</string>
+</resources>
